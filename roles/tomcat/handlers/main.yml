@@ -1,9 +1,9 @@
-- name: restart tomcat
+- name: restart_tomcat
   service:
     name: tomcat
     state: restarted
 
-- name: restart httpd
+- name: restart_httpd
   service: 
     name: "httpd" 
     state: "restarted"
